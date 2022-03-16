@@ -32,6 +32,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   max-width: 350px;
+  min-height: 100vh;
   height: 100%;
 }
 
@@ -148,7 +149,7 @@ ul {
   padding-top: 35px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -157,4 +158,19 @@ ul {
   .left {
     max-width: 100%;
   }
+}
+
+@media (max-width: 943px) and (min-width: 768px) {
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+      }
+
+  .right {
+    max-width: 100%;
+   }
+
+   .right h5 {
+     padding-top: 13px;
+   }
 }
