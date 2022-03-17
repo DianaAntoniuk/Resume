@@ -20,6 +20,7 @@ a:hover {
   height: 100%;
   font-weight: 400;
   font-size: 16px;
+  max-width: max-content;
   /* min-height: 100vh; */
 }
 
@@ -157,12 +158,12 @@ ul {
 
   .left {
     max-width: 100%;
-    max-width: 320px;
+    max-width: 330px;
   }
 
   .right {
     max-width: 100%;
-    max-width: 320px;
+    max-width: 330px;
   }
 }
 
@@ -174,6 +175,11 @@ ul {
 
   .left {
     max-width: 100%;
+  }
+
+  .right {
+    max-width: 100%;
+    max-width: 360px;
   }
 }
 
